@@ -1,0 +1,214 @@
+PODS:
+  - Alamofire (5.2.1)
+  - BSImagePicker (3.2.1)
+  - DACircularProgress (2.3.1)
+  - ExpandableCell (1.3.0)
+  - ExpandableLabel (0.5.2)
+  - FBSDKCoreKit (5.15.1):
+    - FBSDKCoreKit/Basics (= 5.15.1)
+    - FBSDKCoreKit/Core (= 5.15.1)
+  - FBSDKCoreKit/Basics (5.15.1)
+  - FBSDKCoreKit/Core (5.15.1):
+    - FBSDKCoreKit/Basics
+  - FBSDKLoginKit (5.15.1):
+    - FBSDKLoginKit/Login (= 5.15.1)
+  - FBSDKLoginKit/Login (5.15.1):
+    - FBSDKCoreKit (~> 5.0)
+  - FBSDKPlacesKit (5.15.0):
+    - FBSDKCoreKit (~> 5.0)
+  - FBSDKShareKit (5.15.1):
+    - FBSDKShareKit/Share (= 5.15.1)
+  - FBSDKShareKit/Share (5.15.1):
+    - FBSDKCoreKit (~> 5.0)
+  - Firebase/CoreOnly (6.33.0):
+    - FirebaseCore (= 6.10.3)
+  - Firebase/Messaging (6.33.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 4.7.0)
+  - FirebaseCore (6.10.3):
+    - FirebaseCoreDiagnostics (~> 1.6)
+    - GoogleUtilities/Environment (~> 6.7)
+    - GoogleUtilities/Logger (~> 6.7)
+  - FirebaseCoreDiagnostics (1.7.0):
+    - GoogleDataTransport (~> 7.4)
+    - GoogleUtilities/Environment (~> 6.7)
+    - GoogleUtilities/Logger (~> 6.7)
+    - nanopb (~> 1.30906.0)
+  - FirebaseInstallations (1.7.0):
+    - FirebaseCore (~> 6.10)
+    - GoogleUtilities/Environment (~> 6.7)
+    - GoogleUtilities/UserDefaults (~> 6.7)
+    - PromisesObjC (~> 1.2)
+  - FirebaseInstanceID (4.7.0):
+    - FirebaseCore (~> 6.10)
+    - FirebaseInstallations (~> 1.6)
+    - GoogleUtilities/Environment (~> 6.7)
+    - GoogleUtilities/UserDefaults (~> 6.7)
+  - FirebaseMessaging (4.7.0):
+    - FirebaseCore (~> 6.10)
+    - FirebaseInstanceID (~> 4.7)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.7)
+    - GoogleUtilities/Environment (~> 6.7)
+    - GoogleUtilities/Reachability (~> 6.7)
+    - GoogleUtilities/UserDefaults (~> 6.7)
+    - Protobuf (>= 3.9.2, ~> 3.9)
+  - GoogleDataTransport (7.4.0):
+    - nanopb (~> 1.30906.0)
+  - GoogleMaps (3.1.0):
+    - GoogleMaps/Maps (= 3.1.0)
+  - GoogleMaps/Base (3.1.0)
+  - GoogleMaps/Maps (3.1.0):
+    - GoogleMaps/Base
+  - GooglePlacePicker (3.1.0):
+    - GoogleMaps (= 3.1.0)
+    - GooglePlaces (= 3.1.0)
+  - GooglePlaces (3.1.0):
+    - GoogleMaps/Base (= 3.1.0)
+  - GoogleUtilities/AppDelegateSwizzler (6.7.2):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (6.7.2):
+    - PromisesObjC (~> 1.2)
+  - GoogleUtilities/Logger (6.7.2):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/Network (6.7.2):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (6.7.2)"
+  - GoogleUtilities/Reachability (6.7.2):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (6.7.2):
+    - GoogleUtilities/Logger
+  - GrowingTextView (0.7.2)
+  - IDMPhotoBrowser (1.11.3):
+    - DACircularProgress
+    - pop
+    - SDWebImage (= 4.0.0)
+  - IQDropDownTextField (2.0)
+  - IQKeyboardManagerSwift (6.5.5)
+  - Kingfisher (5.14.1):
+    - Kingfisher/Core (= 5.14.1)
+  - Kingfisher/Core (5.14.1)
+  - nanopb (1.30906.0):
+    - nanopb/decode (= 1.30906.0)
+    - nanopb/encode (= 1.30906.0)
+  - nanopb/decode (1.30906.0)
+  - nanopb/encode (1.30906.0)
+  - NVActivityIndicatorView (4.8.0):
+    - NVActivityIndicatorView/Presenter (= 4.8.0)
+  - NVActivityIndicatorView/Presenter (4.8.0)
+  - pop (1.0.12)
+  - PromisesObjC (1.2.10)
+  - Protobuf (3.13.0)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - Socket.IO-Client-Swift (15.2.0):
+    - Starscream (~> 3.1)
+  - Starscream (3.1.1)
+  - SwiftyJSON (5.0.0)
+  - TLPhotoPicker (2.0.11)
+
+DEPENDENCIES:
+  - Alamofire
+  - BSImagePicker
+  - ExpandableCell
+  - ExpandableLabel
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - FBSDKPlacesKit
+  - FBSDKShareKit
+  - Firebase/Messaging
+  - GooglePlacePicker
+  - GooglePlaces
+  - GrowingTextView
+  - IDMPhotoBrowser
+  - IQDropDownTextField
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - NVActivityIndicatorView
+  - SDWebImage
+  - Socket.IO-Client-Swift
+  - SwiftyJSON
+  - TLPhotoPicker
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - BSImagePicker
+    - DACircularProgress
+    - ExpandableCell
+    - ExpandableLabel
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - FBSDKPlacesKit
+    - FBSDKShareKit
+    - Firebase
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseInstallations
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - GoogleDataTransport
+    - GoogleMaps
+    - GooglePlacePicker
+    - GooglePlaces
+    - GoogleUtilities
+    - GrowingTextView
+    - IDMPhotoBrowser
+    - IQDropDownTextField
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - nanopb
+    - NVActivityIndicatorView
+    - pop
+    - PromisesObjC
+    - Protobuf
+    - SDWebImage
+    - Socket.IO-Client-Swift
+    - Starscream
+    - SwiftyJSON
+    - TLPhotoPicker
+
+SPEC CHECKSUMS:
+  Alamofire: e911732990610fe89af59ac0077f923d72dc3dfd
+  BSImagePicker: 5e87fe42526efdc3fe8ea23d6e4fac9eef43ecfb
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  ExpandableCell: 69ca7d71971c171473a7a30964d2127f4c6ceaf6
+  ExpandableLabel: c2fab6d27860c572d67134b30522a5917746171d
+  FBSDKCoreKit: 1d5acf7c9d7a2f92bb1a242dc60cae5b7adb91df
+  FBSDKLoginKit: f1ea8026a58b52d30c9f2e6a58ca7d813619fb83
+  FBSDKPlacesKit: 26d4033cb8cc8640f1e0eadb3635e7dd29c4d073
+  FBSDKShareKit: 259737eab3cc807087374553abdf588b3096ba55
+  Firebase: 8db6f2d1b2c5e2984efba4949a145875a8f65fe5
+  FirebaseCore: d889d9e12535b7f36ac8bfbf1713a0836a3012cd
+  FirebaseCoreDiagnostics: 770ac5958e1372ce67959ae4b4f31d8e127c3ac1
+  FirebaseInstallations: 466c7b4d1f58fe16707693091da253726a731ed2
+  FirebaseInstanceID: ac5a82fcd21f804dbfc8f318eff9e1d7a9916e49
+  FirebaseMessaging: fc1f98b4592f8f2ea538169b1c317c6e76f81300
+  GoogleDataTransport: b7f406340a291370045a270c599e53c6fa6ec20f
+  GoogleMaps: 5c13302e6fe6bb6e686b267196586b91cd594225
+  GooglePlacePicker: fa975116ac202ac29822c0a79758ea1c4db5a95f
+  GooglePlaces: e874db179f2675c4f3eeda0b686b540273a578b0
+  GoogleUtilities: 7f2f5a07f888cdb145101d6042bc4422f57e70b3
+  GrowingTextView: 876bf42005b5e4a4fd740597db12caaf41f0fe6c
+  IDMPhotoBrowser: b96159fe4adb991a844068eb17dab9c0b7d7e51a
+  IQDropDownTextField: 79293d19042b6f2ee6f02decf4a0e68e59e4f327
+  IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
+  Kingfisher: 8050bc6f7f68cbf3908bd04df7ccbac188f6d6d6
+  nanopb: 59317e09cf1f1a0af72f12af412d54edf52603fc
+  NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
+  PromisesObjC: b14b1c6b68e306650688599de8a45e49fae81151
+  Protobuf: 3dac39b34a08151c6d949560efe3f86134a3f748
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  Socket.IO-Client-Swift: 1e3e3a1f09f3312a167f0d781eb2f383d477357c
+  Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  TLPhotoPicker: a5c339732b8326bb16cbb4e00ed01a86f2bfbbb3
+
+PODFILE CHECKSUM: 044e59219d837aa84e8be4ba5c771028dcda7e76
+
+COCOAPODS: 1.9.3

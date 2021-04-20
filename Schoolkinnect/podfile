@@ -1,0 +1,30 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'MySchollKinect' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  
+  pod 'IQKeyboardManagerSwift'
+  pod 'Alamofire'
+  pod "ExpandableLabel"
+  pod 'FBSDKCoreKit'
+  pod 'FBSDKLoginKit'
+  pod 'FBSDKShareKit'
+  pod 'FBSDKPlacesKit'
+  pod "BSImagePicker"
+  pod 'SDWebImage'
+  pod 'GrowingTextView'
+  pod 'Socket.IO-Client-Swift'
+  pod 'TLPhotoPicker'
+  pod 'GooglePlacePicker'
+  pod 'GooglePlaces'
+  pod 'NVActivityIndicatorView'
+  pod 'IQDropDownTextField'
+  pod 'SwiftyJSON'
+  pod 'ExpandableCell'
+  pod 'IDMPhotoBrowser'
+  pod 'Kingfisher'
+  pod 'Firebase/Messaging'
+  pod 'Kingfisher'
+end

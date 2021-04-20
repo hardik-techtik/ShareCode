@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="66" id="X13-W3-mzV" customClass="ExpandableCell2" customModule="MySchoolKinnect" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="66"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="X13-W3-mzV" id="0E9-wZ-z0c">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="66"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Expandable Cell" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y6x-gc-5Zj">
+                        <rect key="frame" x="15" y="16" width="340" height="34"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CLS-3u-6Ch">
+                        <rect key="frame" x="0.0" y="65" width="375" height="1"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="TZt-l2-Clk"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="CLS-3u-6Ch" firstAttribute="leading" secondItem="0E9-wZ-z0c" secondAttribute="leading" id="9Ha-ey-iOg"/>
+                    <constraint firstItem="Y6x-gc-5Zj" firstAttribute="top" secondItem="0E9-wZ-z0c" secondAttribute="top" constant="16" id="CGq-HN-98m"/>
+                    <constraint firstItem="Y6x-gc-5Zj" firstAttribute="centerY" secondItem="0E9-wZ-z0c" secondAttribute="centerY" id="GJs-st-69M"/>
+                    <constraint firstAttribute="bottom" secondItem="Y6x-gc-5Zj" secondAttribute="bottom" constant="16" id="GU0-2q-HOM"/>
+                    <constraint firstItem="Y6x-gc-5Zj" firstAttribute="leading" secondItem="0E9-wZ-z0c" secondAttribute="leading" constant="15" id="WWy-L4-hKr"/>
+                    <constraint firstAttribute="bottom" secondItem="CLS-3u-6Ch" secondAttribute="bottom" id="WXv-5r-drg"/>
+                    <constraint firstAttribute="trailing" secondItem="CLS-3u-6Ch" secondAttribute="trailing" id="q9e-t3-dBA"/>
+                    <constraint firstAttribute="trailing" secondItem="Y6x-gc-5Zj" secondAttribute="trailing" constant="20" id="tXW-FP-dps"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="titleLable" destination="Y6x-gc-5Zj" id="TPK-tT-VbV"/>
+            </connections>
+            <point key="canvasLocation" x="58.399999999999999" y="-10.794602698650676"/>
+        </tableViewCell>
+    </objects>
+</document>

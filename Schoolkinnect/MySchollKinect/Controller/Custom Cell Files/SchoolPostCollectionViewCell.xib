@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SchoolPostCollectionViewCell" id="gTV-IL-0wX" customClass="SchoolPostCollectionViewCell" customModule="MySchoolKinnect" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="299" height="150"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="299" height="150"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vkC-xo-PIs">
+                        <rect key="frame" x="0.0" y="0.0" width="299" height="150"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Morephotos" translatesAutoresizingMaskIntoConstraints="NO" id="Pcc-ZZ-peq">
+                                <rect key="frame" x="0.0" y="0.0" width="299" height="150"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bqr-1V-2vW">
+                                <rect key="frame" x="0.0" y="0.0" width="299" height="150"/>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zSn-Ny-a06">
+                                <rect key="frame" x="0.0" y="0.0" width="299" height="150"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.59820642609999997" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iKV-lV-mpE">
+                                <rect key="frame" x="119.5" y="45.5" width="60" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="59" id="1g7-1w-GxN"/>
+                                    <constraint firstAttribute="width" constant="60" id="pPH-Xs-kxb"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="whitePlayIcon"/>
+                                <connections>
+                                    <action selector="didClickBtnPlayNow:" destination="gTV-IL-0wX" eventType="touchUpInside" id="gpE-vW-Anu"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="zSn-Ny-a06" firstAttribute="top" secondItem="Pcc-ZZ-peq" secondAttribute="top" id="34C-2m-Jqo"/>
+                            <constraint firstItem="zSn-Ny-a06" firstAttribute="leading" secondItem="Pcc-ZZ-peq" secondAttribute="leading" id="Dwx-I6-Qxb"/>
+                            <constraint firstItem="Bqr-1V-2vW" firstAttribute="top" secondItem="Pcc-ZZ-peq" secondAttribute="top" id="ICK-5W-hbw"/>
+                            <constraint firstItem="Bqr-1V-2vW" firstAttribute="trailing" secondItem="Pcc-ZZ-peq" secondAttribute="trailing" id="Lvw-fB-BC5"/>
+                            <constraint firstItem="Bqr-1V-2vW" firstAttribute="leading" secondItem="Pcc-ZZ-peq" secondAttribute="leading" id="RRQ-L0-qFq"/>
+                            <constraint firstItem="Pcc-ZZ-peq" firstAttribute="leading" secondItem="vkC-xo-PIs" secondAttribute="leading" id="W4Z-4m-Rgb"/>
+                            <constraint firstItem="Bqr-1V-2vW" firstAttribute="bottom" secondItem="Pcc-ZZ-peq" secondAttribute="bottom" id="axx-BJ-1Sw"/>
+                            <constraint firstItem="iKV-lV-mpE" firstAttribute="centerX" secondItem="vkC-xo-PIs" secondAttribute="centerX" id="fAd-A3-XC3"/>
+                            <constraint firstAttribute="bottom" secondItem="Pcc-ZZ-peq" secondAttribute="bottom" id="gEJ-YE-mJF"/>
+                            <constraint firstItem="zSn-Ny-a06" firstAttribute="bottom" secondItem="Pcc-ZZ-peq" secondAttribute="bottom" id="jRS-p7-zfn"/>
+                            <constraint firstItem="iKV-lV-mpE" firstAttribute="centerY" secondItem="vkC-xo-PIs" secondAttribute="centerY" id="kmx-RD-eO0"/>
+                            <constraint firstItem="Pcc-ZZ-peq" firstAttribute="top" secondItem="vkC-xo-PIs" secondAttribute="top" id="kyn-86-vf7"/>
+                            <constraint firstAttribute="trailing" secondItem="Pcc-ZZ-peq" secondAttribute="trailing" id="rVn-YY-FNa"/>
+                            <constraint firstItem="zSn-Ny-a06" firstAttribute="trailing" secondItem="Pcc-ZZ-peq" secondAttribute="trailing" id="tha-SX-Ecd"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="vkC-xo-PIs" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="DJF-U5-PKc"/>
+                <constraint firstAttribute="bottom" secondItem="vkC-xo-PIs" secondAttribute="bottom" id="g1U-sv-faT"/>
+                <constraint firstAttribute="trailing" secondItem="vkC-xo-PIs" secondAttribute="trailing" id="h8w-j3-HuJ"/>
+                <constraint firstItem="vkC-xo-PIs" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="rv3-lJ-r72"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="299" height="150"/>
+            <connections>
+                <outlet property="btnPhoto" destination="Bqr-1V-2vW" id="7rX-9E-q6C"/>
+                <outlet property="btnPlay" destination="iKV-lV-mpE" id="sNs-qc-WSc"/>
+                <outlet property="objOnlyImage" destination="Pcc-ZZ-peq" id="925-rj-0nH"/>
+                <outlet property="objVideoView" destination="zSn-Ny-a06" id="6cB-hg-tgc"/>
+                <outlet property="objView" destination="vkC-xo-PIs" id="YTE-N4-lN8"/>
+            </connections>
+            <point key="canvasLocation" x="-81.884057971014499" y="28.794642857142854"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Morephotos" width="277" height="162"/>
+        <image name="whitePlayIcon" width="30" height="30"/>
+    </resources>
+</document>

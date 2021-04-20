@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>789929088709-3oftkaao95n60s88e7o53t78ddqgldl2.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.789929088709-3oftkaao95n60s88e7o53t78ddqgldl2</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>789929088709-7o0urhqjv0ndj1ltjsc6f4conqq6kr26.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD33M5Um0iM92SF2u-OTW5n8swAXfR2l-g</string>
+	<key>GCM_SENDER_ID</key>
+	<string>789929088709</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.MySchollKinect</string>
+	<key>PROJECT_ID</key>
+	<string>my-school-kinect</string>
+	<key>STORAGE_BUCKET</key>
+	<string>my-school-kinect.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:789929088709:ios:71350f6bcdb2c7d1fe02ac</string>
+	<key>DATABASE_URL</key>
+	<string>https://my-school-kinect.firebaseio.com</string>
+</dict>
+</plist>

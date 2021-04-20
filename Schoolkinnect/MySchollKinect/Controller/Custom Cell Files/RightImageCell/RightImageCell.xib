@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="RightImageCell" rowHeight="285" id="KGk-i7-Jjw" customClass="RightImageCell" customModule="MySchoolKinnect" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="284"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="284"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="66E-na-sfc">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="284"/>
+                        <subviews>
+                            <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YgX-23-MV2">
+                                <rect key="frame" x="0.0" y="5" width="320" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="t5s-gG-VIJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Profile" translatesAutoresizingMaskIntoConstraints="NO" id="rD8-2a-ocM">
+                                <rect key="frame" x="150" y="30" width="160" height="160"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="Eb7-uL-92n"/>
+                                    <constraint firstAttribute="height" constant="160" id="vG7-rO-od1"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sJa-oO-HWL">
+                                <rect key="frame" x="150" y="30" width="160" height="160"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e77-DW-u7L">
+                                <rect key="frame" x="280.5" y="200" width="29.5" height="74"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="e77-DW-u7L" firstAttribute="top" secondItem="rD8-2a-ocM" secondAttribute="bottom" constant="10" id="1lc-nE-UEe"/>
+                            <constraint firstAttribute="trailing" secondItem="YgX-23-MV2" secondAttribute="trailing" id="2ij-f4-N6j"/>
+                            <constraint firstItem="sJa-oO-HWL" firstAttribute="trailing" secondItem="rD8-2a-ocM" secondAttribute="trailing" id="DyU-8w-XAi"/>
+                            <constraint firstItem="sJa-oO-HWL" firstAttribute="bottom" secondItem="rD8-2a-ocM" secondAttribute="bottom" id="Enj-2m-DX2"/>
+                            <constraint firstItem="YgX-23-MV2" firstAttribute="leading" secondItem="66E-na-sfc" secondAttribute="leading" id="EpT-3Z-zbL"/>
+                            <constraint firstAttribute="trailing" secondItem="rD8-2a-ocM" secondAttribute="trailing" constant="10" id="SHV-8r-6ah"/>
+                            <constraint firstItem="YgX-23-MV2" firstAttribute="top" secondItem="66E-na-sfc" secondAttribute="top" constant="5" id="dzh-5k-tIg"/>
+                            <constraint firstAttribute="trailing" secondItem="e77-DW-u7L" secondAttribute="trailing" constant="10" id="gUh-NU-DJl"/>
+                            <constraint firstAttribute="bottom" secondItem="e77-DW-u7L" secondAttribute="bottom" constant="10" id="izD-E2-GZ3"/>
+                            <constraint firstItem="rD8-2a-ocM" firstAttribute="top" secondItem="YgX-23-MV2" secondAttribute="bottom" constant="5" id="tJk-0N-MJA"/>
+                            <constraint firstItem="sJa-oO-HWL" firstAttribute="leading" secondItem="rD8-2a-ocM" secondAttribute="leading" id="w3U-94-yeW"/>
+                            <constraint firstItem="sJa-oO-HWL" firstAttribute="top" secondItem="rD8-2a-ocM" secondAttribute="top" id="xhE-ND-UnV"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="66E-na-sfc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="CwJ-B1-FMl"/>
+                    <constraint firstAttribute="trailing" secondItem="66E-na-sfc" secondAttribute="trailing" id="Vk3-Uk-KEy"/>
+                    <constraint firstAttribute="bottom" secondItem="66E-na-sfc" secondAttribute="bottom" id="afu-7X-hra"/>
+                    <constraint firstItem="66E-na-sfc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="dET-2w-EUt"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnPhoto" destination="sJa-oO-HWL" id="NGJ-Hi-7bs"/>
+                <outlet property="conSeperatorHeight" destination="t5s-gG-VIJ" id="cgf-f3-5Wt"/>
+                <outlet property="lblSeperator" destination="YgX-23-MV2" id="1n1-TE-Jrv"/>
+                <outlet property="lblTime" destination="e77-DW-u7L" id="rpb-Fr-02K"/>
+                <outlet property="rightImageMessagPic" destination="rD8-2a-ocM" id="qXk-mD-dXs"/>
+            </connections>
+            <point key="canvasLocation" x="214.49275362318843" y="127.23214285714285"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Profile" width="112" height="112"/>
+    </resources>
+</document>
